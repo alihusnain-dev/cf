@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Chief Furnitures</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/contact.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <!-- Font Awesome Icons Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h2 class="logo">CHIEF FURNITURES&reg;</h2>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="#service">SERVICES</a>
+        <a href="contact.html" id="active">CONTACT</a>
+        <a href="About.html">ABOUT</a>
+      </nav>
+      <div class="search-bar">
+        <input type="text" maxlength="20" id="search" placeholder="Search" />
+        <label for="search" class="label">SEARCH</label>
+        <a href="#">
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </a>
+      </div>
+    </div>
+    <div class="socialBox">
+      <div class="link">
+        <b>Mobile: </b>
+        <a href="tel:+923004479976"> +92-300-4479976 </a> ,
+        <a href="tel:+923344949160"> +92-334-4949160</a>
+      </div>
+
+      <div class="link">
+        <h4>
+          Get connect with us on Social Networks:
+        </h4>
+        <div class="icon">
+          <a href="whatsapp://send?phone=+923004479976" target="1"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/chieffurnitures/" target="1"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/chieffurnitures/" target="1"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ChiefFurnitures" target="1"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+
+      <center>
+        <h1 style="font-size: 36px">Connect With us</h1>
+        <p style="font-size: 18px; font-weight: 300">
+          Chief Furnitures & Fine Wood and Steel Masters&reg;
+        </p>
+        <hr>
+      </center>
+      <div class="container">
+        <div class="social">
+          <div class="item">
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <div class="content">
+              <p>
+                <a href="whatsapp://send?phone=+923004479976" target="1">0300-4479976</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-square-phone"></i>
+            <div class="content">
+              <p>
+                <a href="tel:+923004479976">0300-4479976</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-square-phone"></i>
+            <div class="content">
+              <p>
+                <a href="tel:+923344949160">0334-4949160</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-square-envelope"></i>
+            <div class="content">
+              <p>
+                <a href="mailto:chieffurnitures1984@gmail.com" target="0">info.chieffurnitures</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div class="content">
+              <p>
+                <a href="https://www.google.com/maps/dir/37.09024,-95.712891/Chief+Furniture+Fine+Wood+and+Steel+Masters/@2.4410543,-97.0814913,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39191b2aed7adead:0xcc82860f2bef5cc8!2m2!1d74.3966234!2d31.6041741?entry=ttu"
+                  target="1">Work Shop</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-square-instagram"></i>
+            <div class="content">
+              <p>
+                <a href="https://www.instagram.com/chieffurnitures/" target="1">@chieffurnitures</a>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-square-facebook"></i>
+            <div class="content">
+              <p>
+                <a href="https://www.instagram.com/chieffurnitures/" target="1">@ChiefFurnitures</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="contact">
+        <center>
+          <h1 style="font-size: 36px">Contact us</h1>
+          <p style="font-size: 18px; font-weight: 300">
+            Chief Furnitures & Fine Wood and Steel Masters&reg;
+          </p>
+          <hr>
+        </center>
+        <form id="contactForm" onsubmit="return validateForm()">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+          <label for="mobile">Mobile</label>
+          <input type="text" id="mobile" name="mobile" placeholder="Your mobile number.." required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+          <label for="reference">Reference</label>
+          <input type="text" id="reference" name="reference" placeholder="How did you hear about us?">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:100px;"
+            required></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+        <script>
+          function validateForm() {
+            var name = document.getElementById("name").value;
+            var mobile = document.getElementById("mobile").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            var mobilePattern = /^[0-9]+$/;
+            var emailPattern = /\S+@\S+\.\S+/;
+
+            if (name == "" || mobile == "" || email == "" || message == "") {
+              alert("All fields must be filled out");
+              return false;
+            }
+
+            if (!mobile.match(mobilePattern)) {
+              alert("Mobile number must contain only digits");
+              return false;
+            }
+
+            if (!email.match(emailPattern)) {
+              alert("Invalid email address");
+              return false;
+            }
+
+            return true;
+          }
+        </script>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer section start -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Footer Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+  <footer class="footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</body>
+</html>
+</body>
+
+</html>

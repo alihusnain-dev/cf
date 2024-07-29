@@ -1,0 +1,39 @@
+.service{
+    width: 90%;
+    margin: 10px 5%;
+    /* border: 2px solid #eee; */
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+   grid-auto-rows: 300px;
+   gap: 30px;
+}
+.service .item{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    /* box-shadow: 0 0 10px #292929; */
+    border: 3px solid #303030;
+    border-radius: 15px;
+}
+.service .item:hover{
+    border: 3px solid #393939;
+    border-radius: 10px;
+
+}
+.service .item i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    
+}
+.service .item h4{
+    font-size: large;
+}
+.service .item p{
+    font-size: 15px;
+    padding: 5px;
+    line-height: 20px;
+    color: #a1a1a1;
+}

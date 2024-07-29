@@ -1,0 +1,10 @@
+.description{
+    width: 80%;
+    margin: auto;
+}
+.descript{
+    margin-top: 50px;
+    border: 2px solid #eee;
+    border-radius: 15px;
+    padding: 30px;
+}
